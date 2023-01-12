@@ -98,12 +98,13 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+	/* <<<<<<<<<< Background Color Degrade >>>>>>>>>*/
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #5f4d93 15%, #0060a1 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #5f4d93 15%, #0060a1 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #5f4d93 15%, #0060a1 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #5f4d93 15%, #0060a1 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #F5F5F5 15%, #D3D4D8 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #F5F5F5 15%, #D3D4D8 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #F5F5F5 15%, #D3D4D8 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #F5F5F5 15%, #D3D4D8 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -314,8 +315,9 @@ input, select, textarea {
 		color: #ffffff;
 	}
 
+	/* <<<<<<<<<< Tile and header Color >>>>>>>>>> */
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #4D606E;
 	}
 
 	blockquote {
@@ -2339,25 +2341,26 @@ input, select, textarea {
 
 		}
 
+	/* <<<<<<<<<< Icons color >>>>>>>>>> */	
 	.icon.major {
-		border-color: rgba(255, 255, 255, 0.35);
+		border-color: rgba(77, 96, 110, 0.35);
 	}
 
 		.icon.major:before {
-			border-color: rgba(255, 255, 255, 0.35);
+			border-color: rgba(77, 96, 110, 0.35);
 		}
 
 	.icon.alt {
-		border-color: rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		border-color: rgba(77, 96, 110, 0.35);
+		color: #4D606E;
 	}
 
 		.icon.alt:hover {
-			background-color: rgba(255, 255, 255, 0.075);
+			background-color: rgba(77, 96, 110, 0.075);
 		}
 
 		.icon.alt:active {
-			background-color: rgba(255, 255, 255, 0.2);
+			background-color: rgba(77, 96, 110, 0.2);
 		}
 
 /* Image */
@@ -2488,7 +2491,11 @@ input, select, textarea {
 	}
 
 	dl dt {
-		color: #ffffff;
+		color: #4D606E;
+	}
+
+	dl dd {
+		color: #4D606E;
 	}
 
 /* Actions */
