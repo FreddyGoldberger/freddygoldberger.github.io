@@ -2377,11 +2377,11 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image.left, .image.right {
+		.image.left, .image.right, .image.top {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			.image.left img, .image.right img, .image.top {
 				width: 100%;
 			}
 
@@ -2393,6 +2393,12 @@ input, select, textarea {
 
 		.image.right {
 			float: right;
+			margin: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image.top {
+			float: top;
 			margin: 0 0 1em 1.5em;
 			top: 0.25em;
 		}
