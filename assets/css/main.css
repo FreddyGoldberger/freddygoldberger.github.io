@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import 'https://fonts.googleapis.com/css?family=Inter:300,400,600';
 
 /*
 	Stellar by HTML5 UP
@@ -100,7 +100,7 @@ input, select, textarea {
 
 	/* <<<<<<<<<< Background Color Degrade >>>>>>>>>*/
 	body {
-		background-color: #935d8c;
+		background-color: #1e2a36;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #F5F5F5 15%, #D3D4D8 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #F5F5F5 15%, #D3D4D8 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #F5F5F5 15%, #D3D4D8 85%);
@@ -121,12 +121,12 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #1e2a36;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Inter", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -2169,7 +2169,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #935d8c;
+			background: #1e2a36;
 		}
 
 	input[type="checkbox"] + label,
@@ -2187,7 +2187,7 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #1e2a36;
 	}
 
 	input[type="checkbox"]:focus + label:before,
