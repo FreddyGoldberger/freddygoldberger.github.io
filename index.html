@@ -1,165 +1,465 @@
-<!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Freddy Goldberger - Engineering Manager & Developer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Portfolio of Freddy Goldberger, an Engineering Manager specializing in software and hardware development, leadership, and strategic planning." />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Freddy Goldberger · Engineering Manager</title>
+  <meta name="description" content="Freddy Goldberger: Engineering Manager leading software and hardware teams. 15+ years across autonomous haulage systems, cooperative driving automation, and FinTech hardware at Capital One." />
+  <meta property="og:title" content="Freddy Goldberger · Engineering Manager" />
+  <meta property="og:description" content="Engineering leader across autonomous vehicles, embedded hardware, and FinTech." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#050505" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="cyber-grid" aria-hidden="true"></div>
+  <div class="cyber-cursor" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 1v7M12 16v7M1 12h7M16 12h7"/><rect x="9.5" y="9.5" width="5" height="5"/></svg></div>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <!-- icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M12 22s7-7.2 7-12.5A7 7 0 0 0 5 9.5C5 14.8 12 22 12 22z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 6.5l9 6.5 9-6.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></symbol>
+      <symbol id="i-in" viewBox="0 0 24 24"><path d="M5 9v11M5 4.5v.01M10 20v-6.5a3.5 3.5 0 0 1 7 0V20M10 9v11" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+      <symbol id="i-dl" viewBox="0 0 24 24"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+      <symbol id="i-bag" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 7V4h8v3M8 7v13M16 7v13" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+      <symbol id="i-team" viewBox="0 0 24 24"><circle cx="8" cy="9" r="3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M2 20c1-3.5 3.3-5 6-5s5 1.5 6 5M14 15.5c.9-.3 1.9-.5 3-.5 2.4 0 4.2 1.3 5 4" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+      <symbol id="i-chip" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="9.5" y="9.5" width="5" height="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4" stroke="currentColor" stroke-width="1.6"/></symbol>
+      <symbol id="i-code" viewBox="0 0 24 24"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6M14 4l-4 16" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+      <symbol id="i-cap" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M6 11v5c2 2 10 2 12 0v-5M22 9v6" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+      <symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="M12 2v6M12 16v6M2 12h6M16 12h6" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="9.5" y="9.5" width="5" height="5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    </defs>
+  </svg>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1>Freddy Goldberger</h1>
-					</header>
+  <div class="page">
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#top">FREDDY GOLDBERGER</a>
+      <button class="nav-action menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a class="nav-action" href="#experience">Experience</a>
+        <a class="nav-action" href="#projects">Projects</a>
+        <a class="nav-action" href="#skills">Skills</a>
+        <details class="more">
+          <summary class="nav-action">More <svg><use href="#i-chev"/></svg></summary>
+          <div class="more-menu">
+            <a class="nav-action" href="#about">About</a>
+            <a class="nav-action" href="#leadership">Leadership</a>
+            <a class="nav-action" href="#education">Education</a>
+            <a class="nav-action" href="#contact">Contact</a>
+          </div>
+        </details>
+      </nav>
+    </div>
+  </header>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">Technical Projects</a></li>
-							<li><a href="#second">Experience</a></li>
-							<li><a href="#cta">Contact</a></li>
-						</ul>
-					</nav>
+  <main id="main">
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="top">
+      <div class="wrap">
+        <div class="hero-frame">
+          <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          <div>
+            <h1 class="glitch" data-text="Freddy Goldberger">Freddy Goldberger</h1>
+            <h2>Engineering Manager | Hardware &amp; Software | Autonomous Systems</h2>
+            <ul class="contacts">
+              <li><span class="contact"><svg><use href="#i-pin"/></svg>McLean, VA, USA</span></li>
+              <li><a class="contact" href="mailto:freddy.goldberger@gmail.com"><svg><use href="#i-mail"/></svg>freddy.goldberger@gmail.com</a></li>
+              <li><a class="contact" href="tel:+15207841261"><svg><use href="#i-phone"/></svg>(520) 784-1261</a></li>
+            </ul>
+            <div class="rule"></div>
+            <p class="bio">I lead software and hardware engineering teams. I spent 14 years on Komatsu's FrontRunner Autonomous Haulage System, then managed cooperative driving automation research for the Federal Highway Administration at Leidos. Today I lead the teams that build and support In-Person Transaction devices for Capital One Cafés.</p>
+            <div class="buttons">
+              <a class="btn primary" href="mailto:freddy.goldberger@gmail.com"><svg><use href="#i-mail"/></svg>Email Me</a>
+              <a class="btn" href="https://www.linkedin.com/in/freddygoldberger/" target="_blank" rel="noopener noreferrer"><svg><use href="#i-in"/></svg>LinkedIn</a>
+              <a class="btn" href="Freddy%20Goldberger%20-%20Resume.pdf" download><svg><use href="#i-dl"/></svg>Resume</a>
+            </div>
+          </div>
+          <div class="photo-col">
+            <div class="photo-frame"><img src="images/freddy.jpg" alt="Portrait of Freddy Goldberger" width="520" height="520" /></div>
+            <svg class="particles" id="particles" viewBox="0 0 180 170" aria-hidden="true"></svg>
+          </div>
+        </div>
+        <div class="hero-mark" aria-hidden="true"><svg><use href="#i-x"/></svg></div>
+      </div>
+    </section>
 
-				<!-- Main -->
-					<div id="main">
+    <div class="wrap">
 
-						<!-- Introduction -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>Engineering Leadership & Innovation</h2>
-										</header>
-										<p>As a seasoned Engineering Manager with over 15 years of engineering experience, I specialize in bridging the gap between complex hardware/software development and strategic business goals. My background in Electronic Engineering and Computer Science, combined with more than a decade of leadership roles, allows me to mentor high-performing teams while delivering robust, scalable systems. Today I lead software and hardware engineering teams at Capital One, after more than 14 years on Komatsu's FrontRunner Autonomous Haulage System and cooperative driving automation research at Leidos for the Federal Highway Administration.</p>
+      <!-- ========== ABOUT ========== -->
+      <section class="block" id="about">
+        <div class="section-head"><svg><use href="#i-user"/></svg><h2>About</h2></div>
+        <div class="about">
+          <div class="panel">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <p class="copy">I'm an Engineering Manager and Electronic Engineer with a background in automation and instrumentation, as well as computer science. I was born in Bolivia and studied at the Universidad Técnica Federico Santa María in Chile, one of the country's most prestigious engineering schools. For my final project, I designed an IoT system for home automation that optimized energy use for heating and cooling buildings.</p>
+            <p class="copy">After graduating, I joined Modular Mining Systems, a Komatsu company, supporting the Autonomous Haulage System in Calama, Chile. A promotion took me to the Global Support team at headquarters in Tucson, and later I moved to the Development team as Software Development Manager.</p>
+            <p class="copy" style="margin-bottom:0">In 2024 I moved to McLean, Virginia, to manage the Systems Engineering team at the Saxton Transportation Operations Laboratory. Since 2026 I've been at Capital One, and I'm completing a Master of Engineering Management at Johns Hopkins with a focus on Artificial Intelligence.</p>
+          </div>
+          <div class="stats">
+            <div class="panel stat"><strong>15+</strong><span>Years in engineering</span></div>
+            <div class="panel stat"><strong>11+</strong><span>Years leading teams</span></div>
+            <div class="panel stat"><strong>3&rarr;20</strong><span>Support team growth</span></div>
+            <div class="panel stat"><strong>-90%</strong><span>Kiosk mfg. defects</span></div>
+            <div class="panel stat"><strong>3</strong><span>Continents supported</span></div>
+            <div class="panel stat"><strong>EN/ES</strong><span>Languages</span></div>
+          </div>
+        </div>
+      </section>
 
-										<p>I have a deep understanding of virtualization infrastructure, wireless communications, and IoT systems, with hands-on experience in quality assurance and global system deployments.</p>
-											
-										<p>I am a strategic problem-solver dedicated to operational excellence, project management, and fostering inclusive, innovative engineering cultures.</p>
-										<ul class="actions">
-											<li><a href="about.html" class="button">Learn More</a></li>
-										</ul>
-									</div>
-									<span class="image"><img src="images/Freddy_pic.png" alt="Portrait of Freddy Goldberger" /></span>
-								</div>
-							</section>
+      <!-- ========== EXPERIENCE ========== -->
+      <section class="block" id="experience">
+        <div class="section-head"><svg><use href="#i-bag"/></svg><h2>Experience</h2></div>
+        <div class="timeline">
 
-						<!-- First Section -->
-							<section id="first" class="main special">
-								<header class="major">
-									<h2>Technical Projects</h2>
-								</header>
-								<ul class="features">
-									<li>
-										<span class="icon solid major style1 fa-code"></span>
-										<h3>Software Engineering</h3>
-										<p>Java, C/C++, Python, Unix Shell.</p>
-									</li>
-									<li>
-										<span class="icon solid major style2 fa-microchip"></span>
-										<h3>Hardware Design</h3>
-										<p>PCB Design, Altium Designer, IoT Prototypes.</p>
-									</li>
-									<li>
-										<span class="icon solid major style5 fas fa-users"></span>
-										<h3>Leadership</h3>
-										<p>Engineering Management, Mentoring, Agile/Scrum.</p>
-									</li>
-								</ul>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="stuff_I_do.html" class="button">View Projects</a></li>
-									</ul>
-								</footer>
-							</section>
+          <article class="job">
+            <div class="job-side"><h3>Capital One</h3><p class="role">Sr. Manager, Full-Stack Engineering</p><span class="date">2026-02 - Present</span></div>
+            <div class="panel">
+              <svg class="xhair"><use href="#i-x"/></svg>
+              <p class="meta">McLean, VA | Full-time</p>
+              <ul class="sq">
+                <li>Lead two engineering teams (11 people), one software and one hardware engineering, that build and support In-Person Transaction devices for Capital One Cafés, including the Cashier's Check Kiosk (CCK).</li>
+                <li>Budget preparation and tracking (~$500K); coaching and mentoring of team leads and junior engineers.</li>
+              </ul>
+              <p class="label">Key achievements</p>
+              <ul class="sq">
+                <li>Took ownership of a stalled hardware product launch; repaired a strained vendor relationship, renegotiated pricing to secure funding, and launched CCK v2 to 13 new Café locations.</li>
+                <li>Led hardware/software readiness reviews and set acceptance criteria with the manufacturing partner, cutting manufacturing defects 90% vs. the prior generation.</li>
+                <li>Led modernization of the regression test suite and integrated automated tests into the CI pipeline, cutting manual testing time ~25%.</li>
+                <li>Drove adoption of AI-assisted and spec-driven development practices across both teams, which became the model other teams adopted.</li>
+                <li>Renegotiated a facilities vendor contract, cutting annual cost by roughly $25K at the same service level.</li>
+              </ul>
+              <ul class="tags"><li class="tag">Hardware + Software</li><li class="tag">Vendor Management</li><li class="tag">CI Test Automation</li><li class="tag">AI-Assisted Development</li></ul>
+            </div>
+          </article>
 
-						<!-- Second Section -->
-							<section id="second" class="main special">
-								<header class="major">
-									<h2>Background & Impact</h2>
-								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon solid fa-graduation-cap"></span>
-										<strong>Eng.</strong> Electronic Engineering
-									</li>
-									<li class="style2">
-										<span class="icon solid fa-graduation-cap"></span>
-										<strong>M.E.M.</strong> Johns Hopkins (2027) 
-									</li>
-									<li class="style3">
-										<span class="icon solid fa-gears"></span>
-										<strong>15+</strong> Engineering Years
-									</li>
-									<li class="style4">
-										<span class="icon solid fa-earth-americas"></span>
-										<strong>11+</strong> Years Leading Teams
-									</li>
-									<li class="style5">
-										<span class="icon solid fa-people-group"></span>
-										<strong>7+</strong> Global Support
-									</li>
-									
-								</ul>
-								<p class="content"></p>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="bg_exp.html" class="button">Full Resume</a></li>
-									</ul>
-								</footer>
-							</section>
+          <article class="job">
+            <div class="job-side"><h3>Leidos</h3><p class="role">Systems Engineering Manager – Autonomous Vehicles</p><span class="date">2024-08 - 2026-02</span></div>
+            <div class="panel">
+              <svg class="xhair"><use href="#i-x"/></svg>
+              <p class="meta">McLean, VA | Saxton Transportation Operations Laboratory (FHWA)</p>
+              <ul class="sq">
+                <li>Management of the Systems Engineering team at the Saxton Transportation Operations Laboratory, supporting cooperative driving automation research for the Federal Highway Administration.</li>
+              </ul>
+              <p class="label">Key achievements</p>
+              <ul class="sq">
+                <li>Key contributor to the architecture documentation of cooperative driving automation.</li>
+                <li>Project management of the creation and launch of a scaled vehicle platform for research and development of cooperative and autonomous driving.</li>
+                <li>Contributed to program management, enhancing processes and tools for project managers to optimize project delivery.</li>
+                <li>Drove the adoption of industry-standard software development practices across the engineering team, improving code quality and efficiency.</li>
+              </ul>
+              <ul class="tags"><li class="tag">Cooperative Driving Automation</li><li class="tag">Systems Engineering</li><li class="tag">Program Management</li></ul>
+            </div>
+          </article>
 
-					</div>
+          <article class="job">
+            <div class="job-side"><h3>Komatsu</h3><p class="role">Software Development Manager</p><span class="date">2022-08 - 2024-08</span></div>
+            <div class="panel">
+              <svg class="xhair"><use href="#i-x"/></svg>
+              <p class="meta">Tucson, AZ | FrontRunner Autonomous Haulage System</p>
+              <ul class="sq">
+                <li>Management of the autonomous system Product Development and Quality Assurance teams.</li>
+                <li>Provided guidance to the team and ensured adherence to development standards.</li>
+                <li>Influenced strategic technical decisions with executive leadership and validated key architecture decisions and solutions.</li>
+                <li>Fostered a healthy, inclusive team atmosphere valuing respect, accountability, and integrity.</li>
+                <li>Hired, retained, and grew talent on the team, offering coaching and development opportunities.</li>
+                <li>Budget preparation and tracking.</li>
+              </ul>
+              <ul class="tags"><li class="tag">Autonomous Haulage</li><li class="tag">Product Development</li><li class="tag">Quality Assurance</li><li class="tag">Agile</li></ul>
+            </div>
+          </article>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section id="cta">
-							<h2>Ready to collaborate?</h2>
-							<p>I am always looking for new challenges and opportunities to build innovative systems. Let's connect.</p>
-						</section>
-						
-						<section>
-							<h2>Contact</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd> McLean, VA 22102 &bull; USA</dd>
-								<dt>Phone</dt>
-								<dd>+1-520-784-1261</dd>
-								<dt>Email</dt>
-								<dd><a href="mailto:freddy.goldberger@gmail.com">freddy.goldberger@gmail.com</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="https://twitter.com/F_Goldberger" target="_blank" rel="noopener noreferrer" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="https://github.com/FreddyGoldberger" target="_blank" rel="noopener noreferrer" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/freddygoldberger/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
-								
-							</ul>
-						</section>
-						<p class="copyright">&copy; Freddy Goldberger. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+          <article class="job">
+            <div class="job-side"><h3>Komatsu</h3><p class="role">Lead Supervisor of Global Support</p><span class="date">2020-12 - 2022-07</span></div>
+            <div class="panel">
+              <svg class="xhair"><use href="#i-x"/></svg>
+              <p class="meta">Tucson, AZ | Australia, North America &amp; Latin America</p>
+              <ul class="sq">
+                <li>Managed the Global Support team for autonomous systems across time zones and languages, improving customer satisfaction and reducing downtime.</li>
+                <li>Streamlined product deployment and support processes, enhancing customer experience.</li>
+                <li>Enhanced service delivery by managing KPIs/SLAs and implementing improvement strategies.</li>
+                <li>Coached and mentored engineers and engineering supervisors; responsible for hiring and onboarding.</li>
+                <li>Product documentation quality control.</li>
+              </ul>
+              <ul class="tags"><li class="tag">Global Support</li><li class="tag">KPIs / SLAs</li><li class="tag">Hiring</li></ul>
+            </div>
+          </article>
 
-			</div>
+          <article class="job">
+            <div class="job-side"><h3>Modular Mining</h3><p class="role">Engineering Supervisor of Global Support</p><span class="date">2015-01 - 2020-12</span></div>
+            <div class="panel">
+              <svg class="xhair"><use href="#i-x"/></svg>
+              <p class="meta">Tucson, AZ | a Komatsu company</p>
+              <ul class="sq">
+                <li>Engineering supervision for the Autonomous Haulage System Global Support team.</li>
+                <li>Led a team of engineers to higher levels of customer satisfaction by implementing processes to speed up issue resolution.</li>
+                <li>Led the preparation of support processes that meet ISO9001 standards.</li>
+                <li>Project management of product installations at customer sites worldwide, and of the commissioning of a data-center infrastructure for support.</li>
+                <li>Supervised the development of support tools to automate software troubleshooting, and of a capacity model to forecast staffing needs.</li>
+                <li>Led the standardization of product documentation and training material.</li>
+              </ul>
+              <ul class="tags"><li class="tag">ISO9001</li><li class="tag">Data Center</li><li class="tag">Support Automation</li></ul>
+            </div>
+          </article>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+          <article class="job">
+            <div class="job-side"><h3>Modular Mining</h3><p class="role">Product Engineer</p><span class="date">2011-07 - 2014-12</span></div>
+            <div class="panel">
+              <svg class="xhair"><use href="#i-x"/></svg>
+              <p class="meta">Tucson, AZ | a Komatsu company</p>
+              <ul class="sq">
+                <li>Diagnosed system failures, reported bugs, and implemented workarounds to improve reliability.</li>
+                <li>Led training, managed installations/upgrades, and tested FrontRunner systems.</li>
+                <li>Documented processes and user manuals; developed automation applications for maintenance and support tasks.</li>
+              </ul>
+            </div>
+          </article>
 
-	</body>
+          <article class="job">
+            <div class="job-side"><h3>Modular Mining</h3><p class="role">Support Engineer</p><span class="date">2010-04 - 2011-07</span></div>
+            <div class="panel">
+              <svg class="xhair"><use href="#i-x"/></svg>
+              <p class="meta">Calama, Chile | a Komatsu company</p>
+              <ul class="sq">
+                <li>Provided autonomous system support and troubleshooting, escalating defects to global support.</li>
+                <li>Developed Java applications for better visualization of relevant system health metrics.</li>
+                <li>Maintained the datacenter, workstation, and network infrastructure.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job-side"><h3>Ingeniería Wiseconn</h3><p class="role">Hardware Design Engineer (Intern)</p><span class="date">2009-01 - 2009-03</span></div>
+            <div class="panel">
+              <svg class="xhair"><use href="#i-x"/></svg>
+              <p class="meta">Viña del Mar, Chile | Internship</p>
+              <ul class="sq">
+                <li>Wireless irrigation module design for farms, optimizing water distribution using telemetry.</li>
+                <li>Designed and tested wireless IoT modules, including schematic design and PCB layout in Altium Designer.</li>
+              </ul>
+              <ul class="tags"><li class="tag">Altium Designer</li><li class="tag">IoT</li><li class="tag">Telemetry</li></ul>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ========== LEADERSHIP ========== -->
+      <section class="block" id="leadership">
+        <div class="section-head"><svg><use href="#i-team"/></svg><h2>Leadership</h2></div>
+        <div class="grid-2">
+          <article class="panel">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <h3>Global Support Management</h3>
+            <ul class="sq">
+              <li>Grew the engineering team from 3 to 20 professionals.</li>
+              <li>Improved Service Level Agreement (SLA) compliance by 40% by enhancing systems, documentation, and tools.</li>
+              <li>Took part in documentation and process implementation to comply with ISO9001 standards.</li>
+              <li>Led two renovations of the virtualization cluster, each with a budget of nearly half a million dollars for hardware and labor.</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <h3>Software Development Management</h3>
+            <ul class="sq">
+              <li>Took the team from 70% of budgeted headcount to 100% by improving recruiting, job descriptions, and interview assessments.</li>
+              <li>Led the transition from Waterfall to Agile, with Lean principles and Scrum ceremonies.</li>
+              <li>Built an inclusive environment where people feel safe to share ideas and propose solutions.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- ========== PROJECTS ========== -->
+      <section class="block" id="projects">
+        <div class="section-head"><svg><use href="#i-chip"/></svg><h2>Projects</h2></div>
+        <div class="grid-2">
+
+          <article class="panel project">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <h3>SmartCurtain · Prototype 4</h3>
+            <p class="copy">A low-cost ESP32 Wi-Fi module that automates opening and closing blinds. A PID control algorithm drives a low-speed, high-torque DC motor with an encoder for precise, smooth positioning, controllable from a mobile app or a smart home system.</p>
+            <ul class="tags plain"><li class="tag">ESP32</li><li class="tag">PID control</li><li class="tag">Wi-Fi</li></ul>
+            <div class="thumbs">
+              <button class="thumb" data-full="images/SmartCurtain_Node_prototype4-1.jpg" data-cap="SmartCurtain P4 // Prototype"><img src="images/SmartCurtain_Node_prototype4-1.jpg" alt="SmartCurtain prototype 4 board" loading="lazy" /><span>PROTO</span></button>
+              <button class="thumb" data-full="images/SmartCurtain_Node_prototype4-2.jpg" data-cap="SmartCurtain P4 // Prototype"><img src="images/SmartCurtain_Node_prototype4-2.jpg" alt="SmartCurtain prototype 4 assembly" loading="lazy" /><span>PROTO</span></button>
+              <button class="thumb" data-full="images/SmartCurtain_Node_prototype4-3.jpg" data-cap="SmartCurtain P4 // Prototype"><img src="images/SmartCurtain_Node_prototype4-3.jpg" alt="SmartCurtain prototype 4 detail" loading="lazy" /><span>PROTO</span></button>
+            </div>
+          </article>
+
+          <article class="panel project">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <h3>SmartCurtain · Prototype 3</h3>
+            <p class="copy">Explored the Nordic nRF24L01+ for wireless communication, with a hub bridging the system to the Internet over Wi-Fi. It gave valuable lessons on multi-node wireless architectures and long-term component availability, which shaped the Wi-Fi-native Prototype 4.</p>
+            <ul class="tags plain"><li class="tag">nRF24L01+</li><li class="tag">Hub</li><li class="tag">Altium</li></ul>
+            <div class="thumbs">
+              <button class="thumb" data-full="images/SmartCurtain_Hub_schematic_prototype3-1.png" data-cap="SmartCurtain P3 // Schematic"><img src="images/SmartCurtain_Hub_schematic_prototype3-1.png" alt="SmartCurtain hub schematic" loading="lazy" /><span>SCH</span></button>
+              <button class="thumb" data-full="images/SmartHUB_RevA_PCB-1.png" data-cap="SmartHUB Rev A // PCB"><img src="images/SmartHUB_RevA_PCB-1.png" alt="SmartHUB PCB layout" loading="lazy" /><span>PCB</span></button>
+              <button class="thumb" data-full="images/SmartCurtain_Hub_prototype3-1.jpg" data-cap="SmartCurtain P3 // Hub prototype"><img src="images/SmartCurtain_Hub_prototype3-1.jpg" alt="SmartCurtain hub prototype" loading="lazy" /><span>PROTO</span></button>
+            </div>
+          </article>
+
+          <article class="panel project">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <h3>WiMega3</h3>
+            <p class="copy">Adds wireless control to commercially available relay boards using the nRF24L01+. Paired with the WiMegaUSB dongle, a desktop GUI app toggles each relay ON or OFF remotely, with no physical access to the board.</p>
+            <ul class="tags plain"><li class="tag">nRF24L01+</li><li class="tag">Relays</li><li class="tag">GUI app</li></ul>
+            <div class="thumbs">
+              <button class="thumb" data-full="images/WiMega_v3_Schematic-1.png" data-cap="WiMega3 // Schematic"><img src="images/WiMega_v3_Schematic-1.png" alt="WiMega3 schematic" loading="lazy" /><span>SCH</span></button>
+              <button class="thumb" data-full="images/WiMega_v3_PCB-1.png" data-cap="WiMega3 // PCB"><img src="images/WiMega_v3_PCB-1.png" alt="WiMega3 PCB layout" loading="lazy" /><span>PCB</span></button>
+              <button class="thumb" data-full="images/WiMega3-1.jpg" data-cap="WiMega3 // Prototype"><img src="images/WiMega3-1.jpg" alt="WiMega3 prototype" loading="lazy" /><span>PROTO</span></button>
+            </div>
+          </article>
+
+          <article class="panel project">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <h3>WiMega2</h3>
+            <p class="copy">A refined version of the original WiMega, built to wirelessly control up to 4 commercially available relays. It incorporates the lessons and design improvements from WiMega version 1.</p>
+            <ul class="tags plain"><li class="tag">ATmega328</li><li class="tag">4 relays</li></ul>
+            <div class="thumbs">
+              <button class="thumb" data-full="images/WiMega_v2_Schematic-1.png" data-cap="WiMega2 // Schematic"><img src="images/WiMega_v2_Schematic-1.png" alt="WiMega2 schematic" loading="lazy" /><span>SCH</span></button>
+              <button class="thumb" data-full="images/WiMega_v2_PCB-1.png" data-cap="WiMega2 // PCB top"><img src="images/WiMega_v2_PCB-1.png" alt="WiMega2 PCB layout, top" loading="lazy" /><span>PCB</span></button>
+              <button class="thumb" data-full="images/WiMega_v2_PCB-2.png" data-cap="WiMega2 // PCB bottom"><img src="images/WiMega_v2_PCB-2.png" alt="WiMega2 PCB layout, bottom" loading="lazy" /><span>PCB</span></button>
+            </div>
+          </article>
+
+          <article class="panel project">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <h3>WiMega1</h3>
+            <p class="copy">A module that gave the ATMega328 microcontroller low-power wireless communication through the nRF24L01+, built when affordable IoT options were expensive or didn't exist yet.</p>
+            <ul class="tags plain"><li class="tag">ATmega328</li><li class="tag">Low power</li><li class="tag">IoT</li></ul>
+            <div class="thumbs">
+              <button class="thumb" data-full="images/WiMega_v1_Schematic-1.png" data-cap="WiMega1 // Schematic"><img src="images/WiMega_v1_Schematic-1.png" alt="WiMega1 schematic" loading="lazy" /><span>SCH</span></button>
+              <button class="thumb" data-full="images/WiMega_v1_PCB-1.png" data-cap="WiMega1 // PCB"><img src="images/WiMega_v1_PCB-1.png" alt="WiMega1 PCB layout" loading="lazy" /><span>PCB</span></button>
+              <button class="thumb" data-full="images/WiMega_v1_prototype-1.jpg" data-cap="WiMega1 // Prototype"><img src="images/WiMega_v1_prototype-1.jpg" alt="WiMega1 prototype" loading="lazy" /><span>PROTO</span></button>
+            </div>
+          </article>
+
+          <article class="panel project">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <h3>WiMegaUSB</h3>
+            <p class="copy">The USB link between a computer and the WiMega modules, used by the desktop GUI application to control relays wirelessly.</p>
+            <ul class="tags plain"><li class="tag">USB</li><li class="tag">nRF24L01+</li></ul>
+            <div class="thumbs">
+              <button class="thumb" data-full="images/WiMegaUSB_Schematic-1.png" data-cap="WiMegaUSB // Schematic"><img src="images/WiMegaUSB_Schematic-1.png" alt="WiMegaUSB schematic" loading="lazy" /><span>SCH</span></button>
+              <button class="thumb" data-full="images/WiMegaUSBv2_PCB-1.png" data-cap="WiMegaUSB v2 // PCB"><img src="images/WiMegaUSBv2_PCB-1.png" alt="WiMegaUSB v2 PCB layout" loading="lazy" /><span>PCB</span></button>
+              <button class="thumb" data-full="images/WiMegaUSB-4.jpg" data-cap="WiMegaUSB // Prototype"><img src="images/WiMegaUSB-4.jpg" alt="WiMegaUSB prototype" loading="lazy" /><span>PROTO</span></button>
+            </div>
+          </article>
+
+          <article class="panel project">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <h3>SmartCurtain · Prototype 2</h3>
+            <p class="copy">An earlier SmartCurtain node revision, from schematic to PCB layout to assembled prototype.</p>
+            <ul class="tags plain"><li class="tag">Rev E</li><li class="tag">Altium</li></ul>
+            <div class="thumbs">
+              <button class="thumb" data-full="images/SmartCurtain_Schematic-1.png" data-cap="SmartCurtain P2 // Schematic"><img src="images/SmartCurtain_Schematic-1.png" alt="SmartCurtain prototype 2 schematic" loading="lazy" /><span>SCH</span></button>
+              <button class="thumb" data-full="images/SmartCurtain_RevE_PCB-1.png" data-cap="SmartCurtain Rev E // PCB"><img src="images/SmartCurtain_RevE_PCB-1.png" alt="SmartCurtain Rev E PCB layout" loading="lazy" /><span>PCB</span></button>
+              <button class="thumb" data-full="images/SmartCurtain_Node_prototype3-1.jpg" data-cap="SmartCurtain node // Prototype"><img src="images/SmartCurtain_Node_prototype3-1.jpg" alt="SmartCurtain node prototype" loading="lazy" /><span>PROTO</span></button>
+            </div>
+          </article>
+
+          <article class="panel project">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <h3>Tiny Irrigation Controller</h3>
+            <p class="copy">Built for System Coalition, a non-profit that makes science and engineering fun for kids. An electric pump and a humidity sensor, programmable in the Arduino IDE, let children write code that waters a plant when the soil gets dry.</p>
+            <ul class="tags plain"><li class="tag">Arduino</li><li class="tag">STEM</li><li class="tag">Non-profit</li></ul>
+            <div class="thumbs">
+              <button class="thumb" data-full="images/Tiny_Irrigation_Schematic-1.png" data-cap="Tiny Irrigation // Schematic"><img src="images/Tiny_Irrigation_Schematic-1.png" alt="Tiny Irrigation schematic" loading="lazy" /><span>SCH</span></button>
+              <button class="thumb" data-full="images/Tiny_Irrigation_PCB-1.png" data-cap="Tiny Irrigation // PCB"><img src="images/Tiny_Irrigation_PCB-1.png" alt="Tiny Irrigation PCB layout" loading="lazy" /><span>PCB</span></button>
+              <button class="thumb" data-full="images/Tiny_Irrigation_PCB-3.png" data-cap="Tiny Irrigation // 3D board"><img src="images/Tiny_Irrigation_PCB-3.png" alt="Tiny Irrigation 3D board view" loading="lazy" /><span>3D</span></button>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ========== SKILLS ========== -->
+      <section class="block" id="skills">
+        <div class="section-head"><svg><use href="#i-code"/></svg><h2>Skills</h2></div>
+        <div class="grid-3">
+          <div class="panel skill-panel"><h3>// Leadership</h3>
+            <ul class="tags plain"><li class="tag">Engineering Management</li><li class="tag">Coaching &amp; Mentoring</li><li class="tag">Project Management</li><li class="tag">Agile &amp; Lean</li><li class="tag">Vendor Management</li><li class="tag">Budgets</li><li class="tag">KPIs / SLAs</li><li class="tag">ISO9001</li></ul></div>
+          <div class="panel skill-panel"><h3>// Programming</h3>
+            <ul class="tags plain"><li class="tag">Java</li><li class="tag">C/C++</li><li class="tag">Python</li><li class="tag">Verilog (VHDL)</li><li class="tag">Bash</li><li class="tag">MATLAB</li><li class="tag">SQL</li></ul></div>
+          <div class="panel skill-panel"><h3>// Hardware &amp; Embedded</h3>
+            <ul class="tags plain"><li class="tag">Altium Designer</li><li class="tag">Altium Circuit Studio</li><li class="tag">IAR Embedded Workbench</li><li class="tag">AVR Studio 7</li><li class="tag">Microchip MPLAB</li></ul></div>
+          <div class="panel skill-panel"><h3>// Infrastructure</h3>
+            <ul class="tags plain"><li class="tag">Arch Linux</li><li class="tag">Debian</li><li class="tag">Red Hat</li><li class="tag">Windows Server</li><li class="tag">VMware vSphere</li><li class="tag">Proxmox</li></ul></div>
+          <div class="panel skill-panel"><h3>// Comms &amp; Positioning</h3>
+            <ul class="tags plain"><li class="tag">GNSS RTK / PPP</li><li class="tag">TCP/IP</li><li class="tag">I2C</li><li class="tag">SPI</li><li class="tag">Serial</li><li class="tag">Wi-Fi</li><li class="tag">LTE</li></ul></div>
+          <div class="panel skill-panel"><h3>// Tools</h3>
+            <ul class="tags plain"><li class="tag">Azure DevOps</li><li class="tag">Confluence</li><li class="tag">Zendesk Admin</li><li class="tag">Office 365</li></ul></div>
+        </div>
+      </section>
+
+      <!-- ========== EDUCATION ========== -->
+      <section class="block" id="education">
+        <div class="section-head"><svg><use href="#i-cap"/></svg><h2>Education</h2></div>
+        <div class="grid-2">
+          <article class="panel">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <h3>Master of Engineering Management</h3>
+            <p class="meta">Johns Hopkins University | Expected May 2027</p>
+            <ul class="sq"><li>Focus: Artificial Intelligence</li></ul>
+          </article>
+          <article class="panel">
+            <svg class="xhair"><use href="#i-x"/></svg>
+            <h3>Electronic Engineering</h3>
+            <p class="meta">Universidad Técnica Federico Santa María, Chile | 2003 - 2009</p>
+            <ul class="sq">
+              <li>Ingeniero Civil Electrónico, a 6-year professional engineering degree</li>
+              <li>Specialization: Automation and Instrumentation</li>
+              <li>Secondary specialization: Computer Science</li>
+            </ul>
+          </article>
+        </div>
+        <article class="panel" style="margin-top:24px">
+          <svg class="xhair"><use href="#i-x"/></svg>
+          <h3>Courses</h3>
+          <p class="label">Leadership &amp; Management</p>
+          <ul class="tags plain" style="margin-top:0"><li class="tag">Agile Development Practices</li><li class="tag">Inspiring and Motivating Individuals</li><li class="tag">Leadership for Engineers</li><li class="tag">Business Leadership Competencies Program</li></ul>
+          <p class="label">Technical</p>
+          <ul class="tags plain" style="margin-top:0"><li class="tag">Interconnecting Cisco Network Devices I &amp; II</li><li class="tag">Machine Learning</li></ul>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" id="contact">
+    <div class="wrap">
+      <div class="cta">
+        <h2>Open <span>channel</span></h2>
+        <p>I'm always looking for new challenges and opportunities to build innovative systems. Let's connect.</p>
+      </div>
+      <ul class="contacts">
+        <li><span class="contact"><svg><use href="#i-pin"/></svg>McLean, VA 22102, USA</span></li>
+        <li><a class="contact" href="mailto:freddy.goldberger@gmail.com"><svg><use href="#i-mail"/></svg>freddy.goldberger@gmail.com</a></li>
+        <li><a class="contact" href="tel:+15207841261"><svg><use href="#i-phone"/></svg>+1-520-784-1261</a></li>
+        <li><a class="contact" href="https://www.linkedin.com/in/freddygoldberger/" target="_blank" rel="noopener noreferrer"><svg><use href="#i-in"/></svg>LinkedIn</a></li>
+      </ul>
+      <p class="fine">&copy; <span id="yr">2026</span> Freddy Goldberger // EN (fluent) · ES (native) · U.S. Citizen<br />Style inspired by the self.cv Cybercore template. <a class="blink egg" id="egg" href="8bit/" aria-label="Easter egg: switch to the 8-bit version of this site">_</a></p>
+    </div>
+  </footer>
+  </div>
+
+  <div class="warp" id="warp" aria-hidden="true"><p>&gt; ENTERING 8-BIT MODE<span class="dots"></span></p></div>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Image viewer">
+    <div class="lb-bar"><span id="lb-cap"></span><button class="btn lb-close" id="lb-close">Close [X]</button></div>
+    <img id="lb-img" src="" alt="" />
+  </dialog>
+
+  <script src="assets/main.js"></script>
+</body>
 </html>
