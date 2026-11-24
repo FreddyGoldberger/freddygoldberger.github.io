@@ -15,7 +15,7 @@
   --font-body: "Rajdhani", sans-serif;
   --font-mono: "Share Tech Mono", ui-monospace, monospace;
   --font-heading: "Orbitron", sans-serif;
-  --max: 1265px;
+  --max: 1392px;
   color-scheme: dark;
   scrollbar-color: rgb(var(--cyan) / .6) rgb(var(--muted));
   scrollbar-width: thin;
