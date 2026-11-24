@@ -15,7 +15,7 @@
   --font-body: "Rajdhani", sans-serif;
   --font-mono: "Share Tech Mono", ui-monospace, monospace;
   --font-heading: "Orbitron", sans-serif;
-  --max: 1100px;
+  --max: 1265px;
   color-scheme: dark;
   scrollbar-color: rgb(var(--cyan) / .6) rgb(var(--muted));
   scrollbar-width: thin;
@@ -139,8 +139,8 @@ h1, h2, h3, h4 { margin: 0; font-family: var(--font-heading); }
 a.contact:hover { color: rgb(var(--cyan)); }
 .contact svg { width: 16px; height: 16px; flex: none; }
 
-.rule { height: 1px; background: rgb(var(--border)); margin: 18px 0 26px; max-width: 720px; }
-.bio { font-size: 18px; color: rgb(var(--text) / .8); max-width: 680px; margin: 0; font-weight: 500; }
+.rule { height: 1px; background: rgb(var(--border)); margin: 18px 0 26px; max-width: 830px; }
+.bio { font-size: 18px; color: rgb(var(--text) / .8); max-width: 780px; margin: 0; font-weight: 500; }
 .buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
 
 .photo-col { position: relative; }
@@ -248,9 +248,9 @@ ul.sq li::before { content: ""; position: absolute; left: 0; top: .62em; width: 
 
 /* projects */
 .project { display: flex; flex-direction: column; }
-.thumbs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: auto; padding-top: 20px; }
+.thumbs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: auto; padding-top: 20px; }
 .thumb { position: relative; display: block; padding: 0; background: rgb(var(--surface)); border: 1px solid rgb(var(--border)); cursor: zoom-in; transition: border-color .2s, box-shadow .2s; }
-.thumb img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; opacity: .9; }
+.thumb img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; opacity: .9; }
 .thumb span { position: absolute; left: 0; bottom: 0; padding: 2px 6px; font-family: var(--font-mono); font-size: 11px; color: rgb(var(--cyan)); background: rgb(var(--bg) / .85); }
 .thumb:hover { border-color: rgb(var(--cyan)); box-shadow: 0 0 14px rgb(var(--cyan) / .3); }
 .thumb:hover img { opacity: 1; }
